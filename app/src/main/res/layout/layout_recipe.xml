@@ -1,0 +1,88 @@
+<android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/card_view"
+    android:layout_gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    card_view:cardBackgroundColor="@color/white"
+    card_view:cardElevation="5dp"
+    card_view:cardCornerRadius="7dp"
+    android:layout_margin="10dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/txtName"
+            android:text="Centennial IPA"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textStyle="bold"
+            android:padding="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="OG: "
+            android:id="@+id/txtOG"
+            android:layout_marginLeft="@dimen/recipe_card_margin_left"
+            android:layout_below="@+id/txtName"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="FG:"
+            android:layout_marginLeft="@dimen/recipe_card_margin_left"
+            android:id="@+id/txtFG"
+            android:layout_below="@+id/txtName"
+            android:layout_toRightOf="@+id/txtOG"
+            android:layout_toEndOf="@+id/txtOG" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ABV: "
+            android:layout_marginTop="@dimen/recipe_card_margin_top"
+            android:layout_marginLeft="@dimen/recipe_card_margin_left"
+            android:id="@+id/txtABV"
+            android:layout_below="@+id/txtOG"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="IBU: "
+            android:layout_marginLeft="@dimen/recipe_card_margin_left"
+            android:id="@+id/txtIBU"
+            android:layout_alignTop="@+id/txtABV"
+            android:layout_toRightOf="@+id/txtABV"
+            android:layout_toEndOf="@+id/txtABV" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SRM: "
+            android:layout_marginLeft="@dimen/recipe_card_margin_left"
+            android:id="@+id/txtSRM"
+            android:layout_alignTop="@+id/txtIBU"
+            android:layout_toRightOf="@+id/txtIBU"
+            android:layout_toEndOf="@+id/txtIBU" />
+
+        <TextView
+            android:layout_width="20dp"
+            android:layout_height="match_parent"
+            android:background="@color/srm_5"
+            android:id="@+id/txtColor"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentBottom="true" />
+
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>

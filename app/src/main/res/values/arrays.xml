@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="srm_colors">
+        <item>@color/srm_1</item>
+        <item>@color/srm_2</item>
+        <item>@color/srm_3</item>
+        <item>@color/srm_4</item>
+        <item>@color/srm_5</item>
+        <item>@color/srm_6</item>
+        <item>@color/srm_7</item>
+        <item>@color/srm_8</item>
+        <item>@color/srm_9</item>
+        <item>@color/srm_10</item>
+        <item>@color/srm_11</item>
+        <item>@color/srm_12</item>
+        <item>@color/srm_13</item>
+        <item>@color/srm_14</item>
+        <item>@color/srm_15</item>
+        <item>@color/srm_16</item>
+        <item>@color/srm_17</item>
+        <item>@color/srm_18</item>
+        <item>@color/srm_19</item>
+        <item>@color/srm_20</item>
+        <item>@color/srm_21</item>
+        <item>@color/srm_22</item>
+        <item>@color/srm_23</item>
+        <item>@color/srm_24</item>
+        <item>@color/srm_25</item>
+        <item>@color/srm_26</item>
+        <item>@color/srm_27</item>
+        <item>@color/srm_28</item>
+        <item>@color/srm_29</item>
+        <item>@color/srm_30</item>
+        <item>@color/srm_31</item>
+        <item>@color/srm_32</item>
+        <item>@color/srm_33</item>
+        <item>@color/srm_34</item>
+        <item>@color/srm_35</item>
+        <item>@color/srm_36</item>
+        <item>@color/srm_37</item>
+        <item>@color/srm_38</item>
+        <item>@color/srm_39</item>
+        <item>@color/srm_40</item>
+    </array>
+</resources>
